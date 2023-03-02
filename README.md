@@ -14,20 +14,17 @@
 
 ## Detalhes do projeto
 
-  ● Jogo baseado em turnos onde teremos um player contra o
-  computador
-  ● Humano e computador começam com 100 pontos de vida
-  ● A cada rodada, cada um pode fazer um dos 3 movimentos:
-  ○ Ataque moderado que dá entre (18-25) de dano
-  ○ Ataque variado que dá entre (10-35) de dano
-  ○ Poder de cura, curando entre (18-25) de vida
-  ● A cada movimento, deve ser exibido na tela o que aconteceu e a
-  situação de cada jogador
-  ● Se o jogador ou o computador ficarem com 0 de vida, o jogo acaba
-  ○ Se alguém perder, ao exibir o resultado final, não deve ser
-  exibido que algum jogador ficou com vida negativa
-  ● O jogador humano poderá escolher o nome do seu personagem,
-  assim como o nome de seus 3 movimentos
+* Turn-based game where we have a player against the computer 
+* Human and computer start with 100 life points each 
+* Each round, each player can make one of 3 moves: 
+  * Moderate attack dealing between (18-25) damage 
+  * Varied attack dealing between (10-35) damage 
+  * Healing power, restoring between (18-25) health 
+* After each move, the screen should display what happened and the situation of each player 
+* If either player or the computer reaches 0 health points, the game ends 
+  * If someone loses, the final result should not display any player with negative health points 
+* The human player can choose the name of their character, as well as the name of their 3 moves.
+
 
   ## Installation
 
