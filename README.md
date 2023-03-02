@@ -2,12 +2,12 @@
 
   O projeto tem por base consolidar os conhecimento em Elixir e Phoenix, criando um jogo e API
 
-| :placard: Vitrine.Dev |     |
-| -------------  | --- |
-| :sparkles: Nome        | **ExMon**
-| :label: Tecnologias | Elixir, Phoenix (tecnologias utilizadas)
-| :rocket: URL         | https://url-deploy.com.br
-| :fire: Desafio     | https://url-do-desafio.com.br
+| :placard: Vitrine.Dev |                                          |
+|-----------------------|------------------------------------------|
+| :sparkles: Nome       | **ExMon**                                |
+| :label: Tecnologias   | Elixir, Phoenix (tecnologias utilizadas) |
+| :rocket: URL          | https://url-deploy.com.br                |
+| :fire: Desafio        | https://url-do-desafio.com.br            |
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 ![](https://raw.githubusercontent.com/alexnogueirasilva/ex_mon/main/Screenshot%20from%202023-03-02%2009-05-28.png#vitrinedev)
@@ -37,3 +37,4 @@
       {:ex_mon, "~> 0.1.0"}
     ]
   end
+``
