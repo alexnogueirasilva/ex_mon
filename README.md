@@ -54,6 +54,48 @@ O projeto tem por base consolidar os conhecimento em Elixir e Phoenix, criando u
       }
       ---------------------------------
       :ok
+      
+      ExMon.make_move(:cura)
+      
+      ExMon.make_move(:cura)
+
+ ==== The player healled itself to 100 life points ====
+
+ ==== It's computer turn. ====
+%{computer: %ExMon.Player{
+    life: 100,
+    moves: %{move_avg: :kick, move_heal: :heal, move_rnd: :punch},
+    name: "Robotinik"
+  },
+  player: %ExMon.Player{
+    life: 100,
+    moves: %{move_avg: :soco, move_heal: :cura, move_rnd: :chute},
+    name: "Alex"
+  },
+  status: :continue,
+  turn: :computer
+}
+---------------------------------
+
+ ==== The computer healled itself to 100 life points ====
+
+ ==== It's player turn. ====
+%{computer: %ExMon.Player{
+    life: 100,
+    moves: %{move_avg: :kick, move_heal: :heal, move_rnd: :punch},
+    name: "Robotinik"
+  },
+  player: %ExMon.Player{
+    life: 100,
+    moves: %{move_avg: :soco, move_heal: :cura, move_rnd: :chute},
+    name: "Alex"
+  },
+  status: :continue,
+  turn: :player
+}
+---------------------------------
+:ok
+
 
    ```
 
@@ -62,12 +104,10 @@ O projeto tem por base consolidar os conhecimento em Elixir e Phoenix, criando u
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
 by adding `ex_mon` to your list of dependencies in `mix.exs`:
 
-  ```
-
-def deps do
-[
-{:ex_mon, "~> 0.1.0"}
-]
-end
-
+  ```elixir
+    def deps do
+      [
+        {:credo, "~> 1.7", only: [:dev, :test], runtime: false}
+      ]
+    end
   ```
